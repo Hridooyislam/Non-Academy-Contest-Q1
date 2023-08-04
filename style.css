@@ -20,6 +20,7 @@
     height: 300px;
     border-radius: 100px 0 0 100px;
     position: relative;
+    top: 20px;
   }
   
   .middlebox1 {
@@ -56,6 +57,7 @@
     height: 300px;
     border-radius: 0 100px 100px 0;
     position: relative;
+    top: 20px;
   }
   .middlebox2 {
     position: absolute;
@@ -97,35 +99,80 @@
     transform: rotate(41deg);
     position: absolute;
   }
+  .topPart2 {
+    background: #ffde00;
+    width: 32px;
+    height: 33px;
+    transform: rotate(135deg);
+    position: relative;
+    left: 8px;
+    top: -15px;
+  }
+  .knif2 {
+    background: #ffde00;
+    width: 46px;
+    height: 246px;
+    position: relative;
+    left: 0px;
+    bottom: 31.5px;
+  }
+  .middlePart2 {
+    background: #ffde00;
+    width: 110px;
+    height: 30px;
+    position: relative;
+    left: -30px;
+    top: 245px;
+    right: 440px;
+    
+  }
+  .bottomPart2 {
+    background: #ffde00;
+    width: 35px;
+    height: 70px;
+    position: relative;
+    left: 6px;
+    top: 245px;
+    border-radius: 0 0 20px 20px;
+    margin-top:0px;
+  }
+  
+  /* Middle knife top */
   .topPart {
     background: #ffde00;
     width: 32px;
     height: 33px;
     transform: rotate(135deg);
     position: relative;
-    left: 39px;
-    top: 17px;
+    left: 0px;
+    top: -15px;
   }
   .knif1 {
     background: #ffde00;
-    width: 45px;
+    width: 46px;
     height: 246px;
     position: relative;
-    left: 32px;
+    left: -7px;
+    bottom: 31.5px;
   }
   .middlePart {
     background: #ffde00;
     width: 110px;
     height: 30px;
     position: relative;
-    padding-top: 0em;
+    left: -30px;
+    top: 245px;
+    right: 440px;
+    
   }
   .bottomPart {
     background: #ffde00;
     width: 35px;
     height: 70px;
     position: relative;
-    left: 37px;
+    left: 5px;
+    top: 245px;
     border-radius: 0 0 20px 20px;
+    margin-top:0px;
   }
   
